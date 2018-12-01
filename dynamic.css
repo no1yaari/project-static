@@ -1,0 +1,135 @@
+body{
+  background-color: pink;
+}
+.parent{
+  display:flex;
+  background-color: bisque;
+  width:100%;
+}
+table>tr>td{
+  padding:1%;
+}
+a{
+  word-wrap: break-word;
+}
+  .leftchild{
+    background-color: lightgreen;
+    width:40%;
+    text-align: center;
+    margin:1%;
+}
+  .rightchild{
+    background-color: #532464;
+    width:60%;
+    margin:1%;
+    padding:1%;
+  }
+  img{
+  width: 60%;
+  height: 35%;
+  border-radius: 25px;
+  border:2px solid #246428;
+}
+h2{
+  color:orange;
+}
+h3{
+  color:orange;
+}
+p{
+  font-size: 20px;
+}
+@media only screen and (max-width:480px){
+  *{
+    font-size: 20px;
+  }
+  .parent{
+    width:100%;
+    background-color: #326424;
+    display: flex;
+    flex-direction: column;
+  }
+  .leftchild{
+    background-color: #F8C471;
+    text-align: center;
+    width: 90%;
+    margin:2% auto;
+    padding:2%;
+    border-radius: 20px;
+  }
+  .rightchild{
+    background-color: #F8C471;
+    width: 90%;
+    margin:2% auto;
+    padding:2%;
+    border-radius: 20px;
+
+  }
+  img{
+    width: 60%;
+    height: 35%;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+  }
+  h2{
+    color:#645924;
+  }
+  h3{
+    color:#326424;
+  }
+
+  .table-responsive{
+    overflow-x: scroll;
+    width:90%;
+    margin:1% auto;
+  }
+
+}
+@media only screen and (min-width:481px) and (max-width:780px){
+  *{
+    font-size: 20px;
+  }
+  .parent{
+    width:100%;
+    background-color: #808080;
+    display: flex;
+    flex-direction: column;
+  }
+  .leftchild{
+    background-color: #BDC3C7;
+    text-align: center;
+    width: 90%;
+    margin:2% auto;
+    padding:2%;
+    border-radius: 20px;
+  }
+  .rightchild{
+    background-color: #F8C471;
+    width: 90%;
+    margin:2% auto;
+    padding:2%;
+    border-radius: 20px;
+
+  }
+  img{
+    width: 60%;
+    height: 35%;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+  }
+  h2{
+    color:#645924;
+  }
+  h3{
+    color:#326424;
+  }
+  p{
+    font-size: 20px;
+  }
+  .table-responsive{
+    overflow-x: scroll;
+    width:90%;
+    margin:1% auto;
+  }
+
+}
